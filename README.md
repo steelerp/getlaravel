@@ -7,13 +7,15 @@ curl https://raw.githubusercontent.com/steelerp/getlaravel/master/install.sh > i
 chmod +x install.sh
 ./install.sh
 ```
-# Create a laravel project
+# Create a laravel project & configure
 
 Go to the folder where you want the project to be created and execute the following commands on your ubuntu terminal
 
 ```bash
 laravel new
 composer install
+cp .env.example .env
+php artisan key:generate
 ```
 OR
 
@@ -22,6 +24,8 @@ Go to the parent folder where you want the project folder to be created and exec
 ```bash
 laravel new <project-name> && cd <project-name>
 composer install
+cp .env.example .env
+php artisan key:generate
 ```
 
 # Run
