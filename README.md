@@ -35,3 +35,12 @@ Execute the following commands on your ubuntu terminal from the project folder
 ```bash
 php artisan serve --host=0.0.0.0 --port=8080
 ```
+
+OR
+
+Execute the following commands once to configure your project folder to run on shared hosting sites
+
+```bash
+cp server.php index.php
+cp public/.htaccess .htaccess
+```
