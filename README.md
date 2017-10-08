@@ -29,5 +29,5 @@ composer install
 Execute the following commands on your ubuntu terminal from the project folder
 
 ```bash
-php artisan serve
+php artisan serve --port=8080
 ```
